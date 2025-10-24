@@ -62,7 +62,7 @@ const Index = () => {
       name: 'Дмитрий Соколов',
       specialty: 'Пластический хирург',
       experience: '12 лет опыта',
-      image: 'https://cdn.poehali.dev/projects/c444004a-7d03-43c6-9dc6-6b3cf0176088/files/60e6dd05-39f4-40a6-8eb3-1e34a54f4eb5.jpg'
+      image: 'https://cdn.poehali.dev/files/83c7c803-4064-44b4-b5b6-5880b6a1c6ed.jpg'
     },
     {
       name: 'Елена Волкова',
