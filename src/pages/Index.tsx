@@ -65,12 +65,6 @@ const Index = () => {
       image: 'https://cdn.poehali.dev/projects/c444004a-7d03-43c6-9dc6-6b3cf0176088/files/bb549e0b-888e-4347-93e0-e33d8b05a168.jpg'
     },
     {
-      name: 'Елена Волкова',
-      specialty: 'Косметолог-дерматолог',
-      experience: '10 лет опыта',
-      image: 'https://cdn.poehali.dev/projects/c444004a-7d03-43c6-9dc6-6b3cf0176088/files/60e6dd05-39f4-40a6-8eb3-1e34a54f4eb5.jpg'
-    },
-    {
       name: 'Александр Новиков',
       specialty: 'Пластический хирург',
       experience: '8 лет опыта',
@@ -143,10 +137,6 @@ const Index = () => {
                 <Button size="lg" className="text-lg">
                   <Icon name="Calendar" size={20} className="mr-2" />
                   Записаться на консультацию
-                </Button>
-                <Button size="lg" variant="outline" className="text-lg">
-                  <Icon name="Phone" size={20} className="mr-2" />
-                  +12345678900
                 </Button>
               </div>
               <div className="mt-12 grid grid-cols-3 gap-6">
