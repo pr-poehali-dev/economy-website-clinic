@@ -140,7 +140,7 @@ const Index = () => {
                 </Button>
                 <Button size="lg" variant="outline" className="text-lg">
                   <Icon name="Phone" size={20} className="mr-2" />
-                  +7 (495) 123-45-67
+                  +12345678900
                 </Button>
               </div>
               <div className="mt-12 grid grid-cols-3 gap-6">
@@ -358,7 +358,7 @@ const Index = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">Адрес клиники</h3>
-                    <p className="text-muted-foreground">г. Москва, ул. Примерная, д. 10</p>
+                    <p className="text-muted-foreground">г. Краснодар, ул. Митрофана Седина, д. 4</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
@@ -367,7 +367,7 @@ const Index = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">Телефон</h3>
-                    <p className="text-muted-foreground">+7 (495) 123-45-67</p>
+                    <p className="text-muted-foreground">+12345678900</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
@@ -376,7 +376,7 @@ const Index = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">Email</h3>
-                    <p className="text-muted-foreground">info@clinic-aesthetic.ru</p>
+                    <p className="text-muted-foreground">rapter888@yandex.ru</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
@@ -428,9 +428,9 @@ const Index = () => {
             <div>
               <h4 className="font-semibold mb-4">Контакты</h4>
               <ul className="space-y-2 text-white/70">
-                <li>+7 (495) 123-45-67</li>
-                <li>info@clinic-aesthetic.ru</li>
-                <li>г. Москва, ул. Примерная, д. 10</li>
+                <li>+12345678900</li>
+                <li>rapter888@yandex.ru</li>
+                <li>г. Краснодар, ул. Митрофана Седина, д. 4</li>
               </ul>
             </div>
           </div>
