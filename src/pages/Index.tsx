@@ -69,6 +69,12 @@ const Index = () => {
       specialty: 'Косметолог-дерматолог',
       experience: '10 лет опыта',
       image: 'https://cdn.poehali.dev/projects/c444004a-7d03-43c6-9dc6-6b3cf0176088/files/60e6dd05-39f4-40a6-8eb3-1e34a54f4eb5.jpg'
+    },
+    {
+      name: 'Александр Новиков',
+      specialty: 'Пластический хирург',
+      experience: '8 лет опыта',
+      image: 'https://cdn.poehali.dev/projects/c444004a-7d03-43c6-9dc6-6b3cf0176088/files/d706316a-df91-462b-bf8c-4d6a57ff1e46.jpg'
     }
   ];
 
