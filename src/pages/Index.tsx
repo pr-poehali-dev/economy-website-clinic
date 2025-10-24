@@ -254,7 +254,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <Card className="overflow-hidden">
               <img 
-                src="https://cdn.poehali.dev/projects/c444004a-7d03-43c6-9dc6-6b3cf0176088/files/1311d632-55e1-42e6-8dcd-8cda745b83c8.jpg"
+                src="https://cdn.poehali.dev/projects/c444004a-7d03-43c6-9dc6-6b3cf0176088/files/7b72187f-5ae1-45ab-b832-e932e16e8116.jpg"
                 alt="До/После"
                 className="w-full aspect-video object-cover"
               />
@@ -265,13 +265,13 @@ const Index = () => {
             </Card>
             <Card className="overflow-hidden">
               <img 
-                src="https://cdn.poehali.dev/projects/c444004a-7d03-43c6-9dc6-6b3cf0176088/files/1311d632-55e1-42e6-8dcd-8cda745b83c8.jpg"
+                src="https://cdn.poehali.dev/projects/c444004a-7d03-43c6-9dc6-6b3cf0176088/files/b5dc0d5e-175c-4fd9-9f42-f42bc62b3443.jpg"
                 alt="До/После"
                 className="w-full aspect-video object-cover"
               />
               <CardContent className="p-6">
-                <h3 className="font-semibold text-lg mb-2">Блефаропластика</h3>
-                <p className="text-muted-foreground">2 месяца после операции</p>
+                <h3 className="font-semibold text-lg mb-2">Абдоменопластика</h3>
+                <p className="text-muted-foreground">6 месяцев после операции</p>
               </CardContent>
             </Card>
           </div>
