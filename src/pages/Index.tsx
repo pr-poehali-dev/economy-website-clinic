@@ -254,7 +254,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <Card className="overflow-hidden">
               <img 
-                src="https://cdn.poehali.dev/projects/c444004a-7d03-43c6-9dc6-6b3cf0176088/files/7b72187f-5ae1-45ab-b832-e932e16e8116.jpg"
+                src="https://cdn.poehali.dev/projects/c444004a-7d03-43c6-9dc6-6b3cf0176088/files/35b36e4a-7a1e-43dd-b85f-d7c3c8ec2773.jpg"
                 alt="До/После"
                 className="w-full aspect-video object-cover"
               />
@@ -265,7 +265,7 @@ const Index = () => {
             </Card>
             <Card className="overflow-hidden">
               <img 
-                src="https://cdn.poehali.dev/projects/c444004a-7d03-43c6-9dc6-6b3cf0176088/files/b5dc0d5e-175c-4fd9-9f42-f42bc62b3443.jpg"
+                src="https://cdn.poehali.dev/projects/c444004a-7d03-43c6-9dc6-6b3cf0176088/files/0898519a-2cea-4b62-b012-aa375f4f5346.jpg"
                 alt="До/После"
                 className="w-full aspect-video object-cover"
               />
