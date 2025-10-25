@@ -167,7 +167,7 @@ const Index = () => {
               <img 
                 src="https://cdn.poehali.dev/files/e1d045b7-c042-4b49-9476-531db03b3ab9.PNG" 
                 alt="Афродита" 
-                className="h-14 md:h-16 w-auto object-contain"
+                className="h-16 md:h-20 w-auto object-contain scale-150 origin-left"
               />
             </div>
             <nav className="hidden md:flex items-center gap-8">
