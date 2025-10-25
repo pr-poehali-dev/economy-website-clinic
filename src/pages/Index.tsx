@@ -163,9 +163,12 @@ const Index = () => {
       <header className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm z-50 border-b border-gray-200">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <div className="flex items-center gap-2">
-              <Icon name="Activity" className="text-primary" size={28} />
-              <span className="font-montserrat font-semibold text-xl">Афродита</span>
+            <div className="flex items-center">
+              <img 
+                src="https://cdn.poehali.dev/files/e9d5c8f9-96d1-46ca-9dbc-8b7f583430f1.PNG" 
+                alt="Афродита" 
+                className="h-12 w-auto object-contain"
+              />
             </div>
             <nav className="hidden md:flex items-center gap-8">
               <a href="#services" className="text-foreground hover:text-primary transition-colors">Услуги</a>
