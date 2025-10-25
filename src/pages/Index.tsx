@@ -430,8 +430,9 @@ const Index = () => {
               </ul>
             </div>
           </div>
-          <div className="border-t border-white/20 pt-8 text-center text-white/70">
+          <div className="border-t border-white/20 pt-8 text-center text-white/70 space-y-3">
             <p>© 2024 Клиника Эстетики. Все права защищены.</p>
+            <p className="text-sm text-white/50">Внимание! Данный сайт является частью проекта по экономике и выполняется в качестве домашнего задания</p>
           </div>
         </div>
       </footer>
