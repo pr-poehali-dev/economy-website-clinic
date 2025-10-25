@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Прайс-лист клиники Афродита</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 40px;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #6B46C1;
+        }
+        
+        h1 {
+            color: #6B46C1;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 16px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section-title {
+            color: #6B46C1;
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #E5E7EB;
+        }
+        
+        .service-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 0;
+            border-bottom: 1px solid #F3F4F6;
+        }
+        
+        .service-number {
+            color: #6B46C1;
+            font-weight: 600;
+            margin-right: 15px;
+            min-width: 30px;
+        }
+        
+        .service-name {
+            flex: 1;
+            color: #333;
+        }
+        
+        .service-price {
+            color: #6B46C1;
+            font-weight: 600;
+            white-space: nowrap;
+            margin-left: 20px;
+        }
+        
+        .footer {
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid #E5E7EB;
+            font-size: 13px;
+            color: #666;
+            text-align: center;
+        }
+        
+        @media print {
+            body {
+                padding: 0;
+            }
+            
+            .footer {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Наши услуги</h1>
+        <p class="subtitle">Прайс-лист на основные хирургические процедуры</p>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">ПЛАСТИКА НОСА</h2>
+        <div class="service-item">
+            <span class="service-number">1</span>
+            <span class="service-name">Пластика кончика носа</span>
+            <span class="service-price">105 600 ₽</span>
+        </div>
+        <div class="service-item">
+            <span class="service-number">2</span>
+            <span class="service-name">Реконструкция носа</span>
+            <span class="service-price">142 500 ₽</span>
+        </div>
+        <div class="service-item">
+            <span class="service-number">3</span>
+            <span class="service-name">Риносептопластика</span>
+            <span class="service-price">198 000 ₽</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">БЛЕФАРОПЛАСТИКА</h2>
+        <div class="service-item">
+            <span class="service-number">4</span>
+            <span class="service-name">Верхняя блефаропластика</span>
+            <span class="service-price">100 000 ₽</span>
+        </div>
+        <div class="service-item">
+            <span class="service-number">5</span>
+            <span class="service-name">Нижняя блефаропластика</span>
+            <span class="service-price">120 000 ₽</span>
+        </div>
+        <div class="service-item">
+            <span class="service-number">6</span>
+            <span class="service-name">Круговая блефаропластика</span>
+            <span class="service-price">180 000 ₽</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">ЛИПОФИЛИНГ</h2>
+        <div class="service-item">
+            <span class="service-number">7</span>
+            <span class="service-name">Липофилинг контурных дефектов лица и тела</span>
+            <span class="service-price">45 000 ₽</span>
+        </div>
+        <div class="service-item">
+            <span class="service-number">8</span>
+            <span class="service-name">Липофилинг средней зоны лица и носогубных складок</span>
+            <span class="service-price">66 500 ₽</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">ПЛАСТИКА ГРУДИ</h2>
+        <div class="service-item">
+            <span class="service-number">9</span>
+            <span class="service-name">Увеличение груди</span>
+            <span class="service-price">250 000 ₽</span>
+        </div>
+        <div class="service-item">
+            <span class="service-number">10</span>
+            <span class="service-name">Уменьшение груди</span>
+            <span class="service-price">190 000 ₽</span>
+        </div>
+        <div class="service-item">
+            <span class="service-number">11</span>
+            <span class="service-name">Коррекция молочных желёз</span>
+            <span class="service-price">160 000 ₽</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">ПЛАСТИКА ТЕЛА</h2>
+        <div class="service-item">
+            <span class="service-number">12</span>
+            <span class="service-name">Абдоминопластика 1 категории</span>
+            <span class="service-price">280 000 ₽</span>
+        </div>
+        <div class="service-item">
+            <span class="service-number">13</span>
+            <span class="service-name">Абдоминопластика 2 категории</span>
+            <span class="service-price">320 000 ₽</span>
+        </div>
+        <div class="service-item">
+            <span class="service-number">14</span>
+            <span class="service-name">Абдоминопластика 3 категории</span>
+            <span class="service-price">360 000 ₽</span>
+        </div>
+        <div class="service-item">
+            <span class="service-number">15</span>
+            <span class="service-name">Боковая липосакция</span>
+            <span class="service-price">75 000 ₽</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">КОНТУРНАЯ ПЛАСТИКА</h2>
+        <div class="service-item">
+            <span class="service-number">16</span>
+            <span class="service-name">Увеличение губ</span>
+            <span class="service-price">25 000 ₽</span>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>* Окончательная стоимость формируется после консультации с хирургом и может варьироваться в зависимости от сложности случая</p>
+    </div>
+</body>
+</html>

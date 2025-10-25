@@ -198,6 +198,12 @@ const Index = () => {
                   <Icon name="Calendar" size={20} className="mr-2" />
                   Записаться на консультацию
                 </Button>
+                <Button size="lg" variant="outline" className="text-lg" asChild>
+                  <a href="/price-list.html" download="Прайс-лист Афродита.html">
+                    <Icon name="Download" size={20} className="mr-2" />
+                    Скачать прайс-лист
+                  </a>
+                </Button>
               </div>
               <div className="mt-12 grid grid-cols-3 gap-6">
                 <div className="text-center">
