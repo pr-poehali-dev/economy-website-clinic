@@ -105,7 +105,7 @@ const Index = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <Icon name="Activity" className="text-primary" size={28} />
-              <span className="font-montserrat font-semibold text-xl">Клиника Эстетики</span>
+              <span className="font-montserrat font-semibold text-xl">Афродита</span>
             </div>
             <nav className="hidden md:flex items-center gap-8">
               <a href="#services" className="text-foreground hover:text-primary transition-colors">Услуги</a>
@@ -397,7 +397,7 @@ const Index = () => {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <Icon name="Activity" size={24} />
-                <span className="font-montserrat font-semibold text-lg">Клиника Эстетики</span>
+                <span className="font-montserrat font-semibold text-lg">Афродита</span>
               </div>
               <p className="text-white/70">
                 Современная клиника пластической хирургии
@@ -431,7 +431,7 @@ const Index = () => {
             </div>
           </div>
           <div className="border-t border-white/20 pt-8 text-center text-white/70 space-y-3">
-            <p>© 2024 Клиника Эстетики. Все права защищены.</p>
+            <p>© 2024 Афродита. Все права защищены.</p>
             <p className="text-sm text-white/50">Внимание! Данный сайт является частью проекта по экономике и выполняется в качестве домашнего задания</p>
           </div>
         </div>
