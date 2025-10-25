@@ -165,9 +165,9 @@ const Index = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center">
               <img 
-                src="https://cdn.poehali.dev/files/e9d5c8f9-96d1-46ca-9dbc-8b7f583430f1.PNG" 
+                src="https://cdn.poehali.dev/files/50f1c92a-ac14-4ce4-8507-0383e3e3c5e5.PNG" 
                 alt="Афродита" 
-                className="h-12 w-auto object-contain"
+                className="h-10 w-auto object-contain"
               />
             </div>
             <nav className="hidden md:flex items-center gap-8">
