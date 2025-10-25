@@ -244,11 +244,17 @@ const Index = () => {
 
       <section id="services" className="py-20">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
+          <div className="text-center mb-8">
             <h2 className="font-montserrat font-bold text-4xl mb-4">Наши услуги</h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-6">
               Полный спектр услуг пластической хирургии и эстетической медицины
             </p>
+            <Button size="lg" variant="outline" asChild>
+              <a href="/price-list.html" download="Прайс-лист Афродита.html" className="inline-flex items-center">
+                <Icon name="Download" size={20} className="mr-2" />
+                Скачать полный прайс-лист
+              </a>
+            </Button>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {services.map((service, index) => (

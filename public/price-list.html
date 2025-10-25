@@ -17,19 +17,28 @@
             max-width: 800px;
             margin: 0 auto;
             padding: 40px 20px;
+            background: white;
+        }
+        
+        .clinic-name {
+            color: #333;
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 5px;
         }
         
         .header {
             text-align: center;
             margin-bottom: 40px;
             padding-bottom: 20px;
-            border-bottom: 2px solid #6B46C1;
+            border-bottom: 3px solid #6B46C1;
         }
         
         h1 {
             color: #6B46C1;
-            font-size: 32px;
+            font-size: 36px;
             margin-bottom: 10px;
+            font-weight: 700;
         }
         
         .subtitle {
@@ -38,60 +47,86 @@
         }
         
         .section {
-            margin-bottom: 40px;
+            margin-bottom: 35px;
+            page-break-inside: avoid;
         }
         
         .section-title {
             color: #6B46C1;
-            font-size: 20px;
+            font-size: 18px;
             font-weight: 700;
-            margin-bottom: 20px;
-            padding-bottom: 10px;
-            border-bottom: 1px solid #E5E7EB;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #E5E7EB;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
         }
         
         .service-item {
             display: flex;
             justify-content: space-between;
-            align-items: center;
-            padding: 12px 0;
+            align-items: flex-start;
+            padding: 10px 0;
             border-bottom: 1px solid #F3F4F6;
+        }
+        
+        .service-left {
+            display: flex;
+            align-items: flex-start;
+            flex: 1;
         }
         
         .service-number {
             color: #6B46C1;
             font-weight: 600;
-            margin-right: 15px;
-            min-width: 30px;
+            margin-right: 12px;
+            min-width: 25px;
+            font-size: 14px;
         }
         
         .service-name {
             flex: 1;
             color: #333;
+            line-height: 1.5;
         }
         
         .service-price {
             color: #6B46C1;
-            font-weight: 600;
+            font-weight: 700;
             white-space: nowrap;
             margin-left: 20px;
+            font-size: 16px;
         }
         
         .footer {
             margin-top: 60px;
             padding-top: 20px;
-            border-top: 1px solid #E5E7EB;
-            font-size: 13px;
+            border-top: 2px solid #E5E7EB;
+            font-size: 12px;
             color: #666;
             text-align: center;
+            font-style: italic;
+        }
+        
+        .contact-info {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #E5E7EB;
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .contact-info strong {
+            color: #333;
         }
         
         @media print {
             body {
-                padding: 0;
+                padding: 20px;
             }
             
-            .footer {
+            .footer, .contact-info {
                 page-break-inside: avoid;
             }
         }
@@ -99,116 +134,155 @@
 </head>
 <body>
     <div class="header">
-        <h1>Наши услуги</h1>
-        <p class="subtitle">Прайс-лист на основные хирургические процедуры</p>
+        <div class="clinic-name">Клиника Афродита</div>
+        <h1>Прайс-лист услуг</h1>
+        <p class="subtitle">Пластическая хирургия и эстетическая медицина</p>
     </div>
 
     <div class="section">
-        <h2 class="section-title">ПЛАСТИКА НОСА</h2>
+        <h2 class="section-title">Пластика носа</h2>
         <div class="service-item">
-            <span class="service-number">1</span>
-            <span class="service-name">Пластика кончика носа</span>
-            <span class="service-price">105 600 ₽</span>
+            <div class="service-left">
+                <span class="service-number">1</span>
+                <span class="service-name">Пластика кончика носа</span>
+            </div>
+            <span class="service-price">от 105 600 ₽</span>
         </div>
         <div class="service-item">
-            <span class="service-number">2</span>
-            <span class="service-name">Реконструкция носа</span>
-            <span class="service-price">142 500 ₽</span>
+            <div class="service-left">
+                <span class="service-number">2</span>
+                <span class="service-name">Реконструкция носа</span>
+            </div>
+            <span class="service-price">от 142 500 ₽</span>
         </div>
         <div class="service-item">
-            <span class="service-number">3</span>
-            <span class="service-name">Риносептопластика</span>
-            <span class="service-price">198 000 ₽</span>
-        </div>
-    </div>
-
-    <div class="section">
-        <h2 class="section-title">БЛЕФАРОПЛАСТИКА</h2>
-        <div class="service-item">
-            <span class="service-number">4</span>
-            <span class="service-name">Верхняя блефаропластика</span>
-            <span class="service-price">100 000 ₽</span>
-        </div>
-        <div class="service-item">
-            <span class="service-number">5</span>
-            <span class="service-name">Нижняя блефаропластика</span>
-            <span class="service-price">120 000 ₽</span>
-        </div>
-        <div class="service-item">
-            <span class="service-number">6</span>
-            <span class="service-name">Круговая блефаропластика</span>
-            <span class="service-price">180 000 ₽</span>
+            <div class="service-left">
+                <span class="service-number">3</span>
+                <span class="service-name">Риносептопластика</span>
+            </div>
+            <span class="service-price">от 198 000 ₽</span>
         </div>
     </div>
 
     <div class="section">
-        <h2 class="section-title">ЛИПОФИЛИНГ</h2>
+        <h2 class="section-title">Блефаропластика</h2>
         <div class="service-item">
-            <span class="service-number">7</span>
-            <span class="service-name">Липофилинг контурных дефектов лица и тела</span>
-            <span class="service-price">45 000 ₽</span>
+            <div class="service-left">
+                <span class="service-number">4</span>
+                <span class="service-name">Верхняя блефаропластика</span>
+            </div>
+            <span class="service-price">от 100 000 ₽</span>
         </div>
         <div class="service-item">
-            <span class="service-number">8</span>
-            <span class="service-name">Липофилинг средней зоны лица и носогубных складок</span>
-            <span class="service-price">66 500 ₽</span>
-        </div>
-    </div>
-
-    <div class="section">
-        <h2 class="section-title">ПЛАСТИКА ГРУДИ</h2>
-        <div class="service-item">
-            <span class="service-number">9</span>
-            <span class="service-name">Увеличение груди</span>
-            <span class="service-price">250 000 ₽</span>
+            <div class="service-left">
+                <span class="service-number">5</span>
+                <span class="service-name">Нижняя блефаропластика</span>
+            </div>
+            <span class="service-price">от 120 000 ₽</span>
         </div>
         <div class="service-item">
-            <span class="service-number">10</span>
-            <span class="service-name">Уменьшение груди</span>
-            <span class="service-price">190 000 ₽</span>
-        </div>
-        <div class="service-item">
-            <span class="service-number">11</span>
-            <span class="service-name">Коррекция молочных желёз</span>
-            <span class="service-price">160 000 ₽</span>
+            <div class="service-left">
+                <span class="service-number">6</span>
+                <span class="service-name">Круговая блефаропластика</span>
+            </div>
+            <span class="service-price">от 180 000 ₽</span>
         </div>
     </div>
 
     <div class="section">
-        <h2 class="section-title">ПЛАСТИКА ТЕЛА</h2>
+        <h2 class="section-title">Липофилинг</h2>
         <div class="service-item">
-            <span class="service-number">12</span>
-            <span class="service-name">Абдоминопластика 1 категории</span>
-            <span class="service-price">280 000 ₽</span>
+            <div class="service-left">
+                <span class="service-number">7</span>
+                <span class="service-name">Липофилинг контурных дефектов (лицо и тело)</span>
+            </div>
+            <span class="service-price">от 45 000 ₽</span>
         </div>
         <div class="service-item">
-            <span class="service-number">13</span>
-            <span class="service-name">Абдоминопластика 2 категории</span>
-            <span class="service-price">320 000 ₽</span>
-        </div>
-        <div class="service-item">
-            <span class="service-number">14</span>
-            <span class="service-name">Абдоминопластика 3 категории</span>
-            <span class="service-price">360 000 ₽</span>
-        </div>
-        <div class="service-item">
-            <span class="service-number">15</span>
-            <span class="service-name">Боковая липосакция</span>
-            <span class="service-price">75 000 ₽</span>
+            <div class="service-left">
+                <span class="service-number">8</span>
+                <span class="service-name">Липофилинг средней зоны лица</span>
+            </div>
+            <span class="service-price">от 66 500 ₽</span>
         </div>
     </div>
 
     <div class="section">
-        <h2 class="section-title">КОНТУРНАЯ ПЛАСТИКА</h2>
+        <h2 class="section-title">Пластика груди</h2>
         <div class="service-item">
-            <span class="service-number">16</span>
-            <span class="service-name">Увеличение губ</span>
-            <span class="service-price">25 000 ₽</span>
+            <div class="service-left">
+                <span class="service-number">9</span>
+                <span class="service-name">Увеличение груди (аугментационная маммопластика)</span>
+            </div>
+            <span class="service-price">от 250 000 ₽</span>
+        </div>
+        <div class="service-item">
+            <div class="service-left">
+                <span class="service-number">10</span>
+                <span class="service-name">Уменьшение груди (редукционная маммопластика)</span>
+            </div>
+            <span class="service-price">от 190 000 ₽</span>
+        </div>
+        <div class="service-item">
+            <div class="service-left">
+                <span class="service-number">11</span>
+                <span class="service-name">Коррекция молочных желёз (мастопексия)</span>
+            </div>
+            <span class="service-price">от 160 000 ₽</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Пластика тела</h2>
+        <div class="service-item">
+            <div class="service-left">
+                <span class="service-number">12</span>
+                <span class="service-name">Абдоминопластика 1 категории</span>
+            </div>
+            <span class="service-price">от 280 000 ₽</span>
+        </div>
+        <div class="service-item">
+            <div class="service-left">
+                <span class="service-number">13</span>
+                <span class="service-name">Абдоминопластика 2 категории</span>
+            </div>
+            <span class="service-price">от 320 000 ₽</span>
+        </div>
+        <div class="service-item">
+            <div class="service-left">
+                <span class="service-number">14</span>
+                <span class="service-name">Абдоминопластика 3 категории</span>
+            </div>
+            <span class="service-price">от 360 000 ₽</span>
+        </div>
+        <div class="service-item">
+            <div class="service-left">
+                <span class="service-number">15</span>
+                <span class="service-name">Боковая липосакция</span>
+            </div>
+            <span class="service-price">от 75 000 ₽</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Контурная пластика</h2>
+        <div class="service-item">
+            <div class="service-left">
+                <span class="service-number">16</span>
+                <span class="service-name">Увеличение губ филлерами</span>
+            </div>
+            <span class="service-price">от 25 000 ₽</span>
         </div>
     </div>
 
     <div class="footer">
         <p>* Окончательная стоимость формируется после консультации с хирургом и может варьироваться в зависимости от сложности случая</p>
+    </div>
+
+    <div class="contact-info">
+        <p><strong>Клиника Афродита</strong></p>
+        <p>г. Краснодар, ул. Митрофана Седина, д. 4</p>
+        <p>Телефон: +12345678900 | Email: rapter888@yandex.ru</p>
     </div>
 </body>
 </html>
